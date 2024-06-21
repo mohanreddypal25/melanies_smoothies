@@ -1,5 +1,6 @@
 # Import python packages
 import streamlit as st
+import streamlit_app.py
 #from snowflake.snowpark.context import get_active_session
 cnx= st.connection("snowflake")
 
